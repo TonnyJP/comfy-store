@@ -25,6 +25,7 @@ export const NavBar = () => {
         const newTheme = theme === themes.light? themes.dark : themes.light;
         setTheme(newTheme)
     }
+    
     useEffect(() => {
         document.documentElement.setAttribute('data-theme', theme)
         localStorage.setItem("theme", theme)

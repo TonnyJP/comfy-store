@@ -3,3 +3,7 @@ export { SubmitBtn } from './SubmitBtn'
 export { Header } from './Header'
 export { NavBar } from './NavBar'
 export { NavLinks } from './Navlinks'
+export { Hero } from "./Hero"
+export { ErrorElement } from "./ErrorElement"
+export { SectionTitle } from "./SectionTitle"
+export { FeaturedProducts } from "./FeaturedProducts"
